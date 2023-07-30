@@ -1,0 +1,11 @@
+{
+    "scripts": {
+        "e2e": [
+            "Composer\\Config::disableProcessTimeout",
+            "./bin/run-tests.sh --browser"
+        ]
+    },
+    "require": {
+        "google/apiclient": "^2.0"
+    }
+}
